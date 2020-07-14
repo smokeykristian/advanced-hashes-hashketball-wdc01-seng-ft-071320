@@ -152,7 +152,10 @@ def team_colors(team_name)
 end
 
 def player_stats
-  game_hash.each do ||
+  game_hash.each {
+    |name| name == player_name
+  }
+  puts 
     
 
 
