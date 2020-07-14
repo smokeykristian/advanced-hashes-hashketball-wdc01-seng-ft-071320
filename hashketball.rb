@@ -151,7 +151,7 @@ def team_colors(team_name)
   end
 end
 
-def player_stats(player_namel)
+def player_stats(player_name)
   game_hash.each do |team_location, team_property|
     team_property[:players].each_with_index do  |player, player_index|
       if player[:player_name] == player_name
