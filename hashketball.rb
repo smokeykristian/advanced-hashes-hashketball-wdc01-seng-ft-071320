@@ -151,9 +151,15 @@ def team_colors(team_name)
   end
 end
 
-def player_stats
-  game_hash.each {
-    |name| name == player_name
+def player_stats(player_namel)
+  game_hash.each do |team_location, team_property|
+    team_property[:players].each_with_index do  |player, player_index|
+      if player[:player_name] == player_name
+        return team_property[:player][player_index]
+      end
+    end
+  end
+end
   }
   puts 
     
