@@ -160,8 +160,8 @@ def player_stats(player_namel)
     end
   end
 end
-  }
-  puts 
+
+
     
 
 
