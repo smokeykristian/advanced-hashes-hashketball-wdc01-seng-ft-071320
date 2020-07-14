@@ -151,7 +151,9 @@ def team_colors(team_name)
   end
 end
 
-
+def player_stats
+  game_hash.each do ||
+    
 
 
 
